@@ -1,0 +1,27 @@
+* {
+    font-family: 'Baloo Chettan 2', sans-serif;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+td {
+    width: 230px;
+    margin: 0;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    width: 430px;
+    margin: 0;
+    box-shadow: 0em;
+    height: 50px;
+    background-color: green;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+

@@ -1,17 +1,37 @@
 <!DOCTYPE html>
-<html lang= "en">
+<html lang="en">
+
+
 <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Deposit Calculator<title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2|Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <title>Deposit Calculator</title>
 </head>
+
 <body>
-<h1>RASHAD'S DEPOSIT CALCULATOR</h1>
-
-
-
-<script src= script.js></script>
+    <h1>Rashad's Deposit Calculator</h1>
+    <table class="table-for-entries">
+        <tr>
+            <td><label>Initial Amount (USD)</label></td>
+            <td><input id="cv"/></td>
+        </tr>
+        <tr>
+            <td><label>Monthly added amount (USD)</label></td>
+            <td><input id="salaryadd"/></td>
+        </tr>
+        <tr>
+            <td><label>Annual interest rate</label></td>
+            <td><input id="rate"/></td>
+        </tr>
+        <tr>
+            <td><label>Tenor of the deposit (in days)</label></td>
+            <td><input id="tenor"/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button id="total">Calculate</button></td>
+        </tr>
+    </table>
 </body>
-</html>
