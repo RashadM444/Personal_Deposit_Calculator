@@ -25,3 +25,9 @@ button {
     color: white;
 }
 
+#error {
+    width: 430px;
+    text-align: center;
+    color: rgba(250, 0, 0, 0.60)
+}
+

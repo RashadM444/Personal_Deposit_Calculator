@@ -7,6 +7,13 @@ total.addEventListener('click', function(){
     let rate = +(document.getElementById ("rate").value);
     let tenor = +(document.getElementById ("tenor").value);
     let result = 0;
+    if (cv < 0 || salaryadd < 0 || rate < 0 || rate > 100) {
+        console.log (`Wrong entry has been made`);
+        console.log (NaN);
+        return document.getElementById ('error').innerHTML = 'You can only enter positive numbers';
+    } else if
+    
+    
     tenor = Math.floor(tenor/30);
     result = cv*(Math.pow(1+(rate/100)/12,tenor)) + salaryadd*findSalaryFormulaFactor(tenor,rate);
     alert (result);
@@ -19,5 +26,22 @@ function findSalaryFormulaFactor(time, percent) {
     }
     return factor;
 }
+
+
+
+
+
+
+
+
+// * cv must be > 0
+// Начальная сумма - положительно число
+// * salaryadd !<0 
+// Сумма пополнения - неотрицательное число
+// * rate >0
+// Процент - положительное число (до 100)
+// * tenor >0 && tenor%1=0 
+// Срок - положительное целое число.
+
 
 
