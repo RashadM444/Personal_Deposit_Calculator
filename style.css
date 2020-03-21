@@ -4,24 +4,38 @@
     font-weight: normal;
 }
 
-section {
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
+section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+    width: 100%;
+    min-width: 300px;
+}
+
+table {
+    width: 50%;
 }
 
 td {
-    max-zoom: 230px;
+    width: 50%;
     margin: 0;
 }
 
 input {
-    width: 200px;
+    width: 100%;
 }
 
 button {
-    width: 430px;
+    width: 100%;
     margin: 0;
     box-shadow: 0em;
     max-height: 50px;
@@ -33,7 +47,7 @@ button {
 }
 
 #error {
-    width: 430px;
+    width: 100%;
     text-align: center;
     color: rgba(250, 0, 0, 0.60)
 }
