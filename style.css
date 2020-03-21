@@ -4,8 +4,15 @@
     font-weight: normal;
 }
 
+section {
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
 td {
-    width: 230px;
+    max-zoom: 230px;
     margin: 0;
 }
 
@@ -17,7 +24,7 @@ button {
     width: 430px;
     margin: 0;
     box-shadow: 0em;
-    height: 50px;
+    max-height: 50px;
     background-color: green;
     border:none;
     border-radius: 5px;
